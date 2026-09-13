@@ -1,0 +1,16 @@
+{
+  "name": "stability-thumbnail-api",
+  "version": "1.0.0",
+  "description": "AI Thumbnail Generator API using Stability AI",
+  "main": "api/generate.js",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
